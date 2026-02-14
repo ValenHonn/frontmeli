@@ -1,0 +1,52 @@
+.header {
+    height: 100px;
+    background-color: #ffe600;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 50px);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.header .logo{
+    justify-self: end;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo .imagen-logo{
+    width: 70%;
+    height: 70%;
+}
+
+.header .enviar{
+    justify-self: end;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header .enviar .texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .enviar p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 12px;
+}
+
+.header .envio-gratis{
+    justify-self: start;
+}
+
+.header .otras-nav{
+    justify-self: start;
+}
