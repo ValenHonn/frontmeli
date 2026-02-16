@@ -50,3 +50,52 @@
 .header .otras-nav{
     justify-self: start;
 }
+.search-bar {
+    width:80%;
+    height: 40px;
+}
+
+.search-bar-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    border-radius: 2px;
+  
+}
+
+.search-bar-form-input {
+    width:92%;
+    height: 100%;
+    border: none;
+    outline: none; /* es necesario porque el navegador tiene por defecto que al hacer click se activa un outline, esto lo elimina, tambien se podria poner al hacer focus*/
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+
+.search-bar-form-btn {
+    height: 100%;
+    width: 8%;
+    background-color: white;
+    border: none;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+.search-bar-form-btn::before {
+  content: ""; /* para que el elemento virtual exista si o si */
+  position: absolute; /* para posicionarlo con respecto al padre (el boton) */
+  left: 0; /* a la izquierda de todo con respecto al padre */
+  top: 25%; /* deja un margen del 25% arriba con respecto al padre */
+  height: 50%; /* de manera que el elemento va del 25% al 75% */
+  width: 1px; /* el elemento tiene un grueso de 1px simulando un borde */
+  background-color: rgba(0,0,0,.2);
+}
+
+.search-bar-form:focus-within {
+    box-shadow: 0 0 0 2px rgb(75, 138, 157);
+    outline: none;
+}
+
+

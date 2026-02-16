@@ -8,7 +8,15 @@ function Header() {
             <div className="logo">
                 <img className="imagen-logo" src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.9.0/mercadolibre/logo_large_plus@2x.webp"></img>
             </div>
-            <div className="search-bar">Search Bar</div>
+            <div className="search-bar">
+                <form className="search-bar-form">
+                    <label for="search-bar-form-input"></label>
+                    <input className="search-bar-form-input" placeholder="Buscar productos, marcas y más..."></input>
+                    <button type="submit" className="search-bar-form-btn"> 
+                        <img className="imagen-search" src="/search_icon.svg"/>
+                    </button>
+                </form>
+            </div>
             <div className="envio-gratis">Envio Gratis</div>
             <div className="enviar">
                 <img className="logo-ubi" src="/logoubi.svg"/>
