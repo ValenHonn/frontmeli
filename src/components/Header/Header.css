@@ -93,9 +93,25 @@
   background-color: rgba(0,0,0,.2);
 }
 
-.search-bar-form:focus-within {
+.search-bar-form:focus-within { /* Aplica este estilo si algún hijo tiene focus (cuando se selecciona un campo)*/
     box-shadow: 0 0 0 2px rgb(75, 138, 157);
     outline: none;
 }
 
+.envio-gratis {
+    width: 100%;
+    height: 100%;
+}
 
+.envio-gratis-anchor {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.envio-gratis-anchor-img {
+    width: 60%;
+    height: 80%;
+    object-fit: contain;
+}

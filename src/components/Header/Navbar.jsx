@@ -2,13 +2,20 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-    <div className="navbar-list">
-        <div>Logo Mercado Libre</div>
-        <div>Search Bar</div>
-        <div>Envio Gratis</div>
-        <div>Enviar a</div>
-        <div>NavBar</div>
-        <div>otras nav</div>
+    <div className="navbar">
+        <ul className="navbar-list">
+            <li>Categorias</li>
+            <li>Ofertas</li>
+            <li>Cupones</li>
+            <li>Supermercado</li>
+            <li>Moda</li>
+            <li className="mercado">
+              <span>GRATIS</span>
+              Mercado Play
+            </li>
+            <li>Vender</li>
+            <li>Ayuda</li>
+        </ul>
     </div>
   )
 }

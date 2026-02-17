@@ -17,7 +17,11 @@ function Header() {
                     </button>
                 </form>
             </div>
-            <div className="envio-gratis">Envio Gratis</div>
+            <div className="envio-gratis">
+                <a className="envio-gratis-anchor" src="">
+                    <img className="envio-gratis-anchor-img" src="https://http2.mlstatic.com/D_NQ_871042-MLA96631608403_102025-OO.webp"></img>
+                </a>
+            </div>
             <div className="enviar">
                 <img className="logo-ubi" src="/logoubi.svg"/>
 
@@ -26,7 +30,9 @@ function Header() {
                     <p>Chaco 3500</p>
                 </div>
             </div>
-            <div className="navbar">NavBar</div>
+            
+            <Navbar/>
+
             <div className="otras-nav">otras nav</div>
         </header>
     </>
