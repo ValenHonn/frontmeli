@@ -33,7 +33,16 @@ function Header() {
             
             <Navbar/>
 
-            <div className="otras-nav">otras nav</div>
+            <div className="otras-nav">
+                <ul className="otrasnav-list">
+                    <li>Creá tu cuenta</li>
+                    <li>Ingresá</li>
+                    <li>Mis compras</li>
+                    <li>
+                        <img src="./cart_icon.svg"></img>
+                    </li>
+                </ul>
+            </div>
         </header>
     </>
     )

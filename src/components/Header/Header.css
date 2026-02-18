@@ -115,3 +115,25 @@
     height: 80%;
     object-fit: contain;
 }
+
+.otras-nav{
+    width: 55%;
+    height: 100%
+}
+.otrasnav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.otrasnav-list li {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif, sans-serif;
+    cursor: pointer;
+}
